@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mushroom Price List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f3e9;
+            color: #333;
+        }
+
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body class="antialiased">
+
+    <div class="container mx-auto px-4 py-12 md:py-16">
+        <!-- Header Section -->
+        <header class="text-center mb-12 md:mb-16">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-800 tracking-tight mb-2">Mushroom Price List</h1>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                Discover our freshest, hand-picked selection of gourmet mushrooms. All prices are per pound.
+            </p>
+        </header>
+
+        <!-- Product Grid Section -->
+        <main class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+            <!-- Card 1: Portobello Mushrooms -->
+            <div class="card bg-white rounded-xl shadow-md overflow-hidden transform">
+                <img src="https://placehold.co/600x400/8d6e63/ffffff?text=Portobello" alt="Portobello Mushrooms"
+                    class="w-full h-48 object-cover object-center">
+                <div class="p-6">
+                    <h2 class="text-2xl font-semibold text-gray-900 mb-2">Portobello</h2>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                        Large, meaty, and perfect for grilling or using as a vegetarian burger patty. Known for their rich, earthy flavor.
+                    </p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-3xl font-bold text-green-700">$5.99</span>
+                        <span class="text-gray-500">per lb</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: Cremini Mushrooms -->
+            <div class="card bg-white rounded-xl shadow-md overflow-hidden transform">
+                <img src="https://placehold.co/600x400/6a4d3a/ffffff?text=Cremini" alt="Cremini Mushrooms"
+                    class="w-full h-48 object-cover object-center">
+                <div class="p-6">
+                    <h2 class="text-2xl font-semibold text-gray-900 mb-2">Cremini</h2>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                        Also known as baby bella mushrooms, they have a firmer texture and a deeper flavor than white button mushrooms.
+                    </p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-3xl font-bold text-green-700">$4.49</span>
+                        <span class="text-gray-500">per lb</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: Shiitake Mushrooms -->
+            <div class="card bg-white rounded-xl shadow-md overflow-hidden transform">
+                <img src="https://placehold.co/600x400/5e5445/ffffff?text=Shiitake" alt="Shiitake Mushrooms"
+                    class="w-full h-48 object-cover object-center">
+                <div class="p-6">
+                    <h2 class="text-2xl font-semibold text-gray-900 mb-2">Shiitake</h2>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                        Prized in Asian cuisine, these mushrooms have a distinct, smoky flavor and a tender texture when cooked.
+                    </p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-3xl font-bold text-green-700">$8.99</span>
+                        <span class="text-gray-500">per lb</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4: Oyster Mushrooms -->
+            <div class="card bg-white rounded-xl shadow-md overflow-hidden transform">
+                <img src="https://placehold.co/600x400/b0a498/ffffff?text=Oyster" alt="Oyster Mushrooms"
+                    class="w-full h-48 object-cover object-center">
+                <div class="p-6">
+                    <h2 class="text-2xl font-semibold text-gray-900 mb-2">Oyster</h2>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                        Delicate and slightly sweet, they have a velvety texture and are excellent in sautés and stir-fries.
+                    </p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-3xl font-bold text-green-700">$7.49</span>
+                        <span class="text-gray-500">per lb</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5: Lion's Mane Mushrooms -->
+            <div class="card bg-white rounded-xl shadow-md overflow-hidden transform">
+                <img src="https://placehold.co/600x400/d4b39b/ffffff?text=Lion's+Mane" alt="Lion's Mane Mushrooms"
+                    class="w-full h-48 object-cover object-center">
+                <div class="p-6">
+                    <h2 class="text-2xl font-semibold text-gray-900 mb-2">Lion's Mane</h2>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                        A unique-looking mushroom with a texture and flavor reminiscent of crab or lobster. Great for a meat-free alternative.
+                    </p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-3xl font-bold text-green-700">$12.99</span>
+                        <span class="text-gray-500">per lb</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6: King Trumpet Mushrooms -->
+            <div class="card bg-white rounded-xl shadow-md overflow-hidden transform">
+                <img src="https://placehold.co/600x400/968172/ffffff?text=King+Trumpet" alt="King Trumpet Mushrooms"
+                    class="w-full h-48 object-cover object-center">
+                <div class="p-6">
+                    <h2 class="text-2xl font-semibold text-gray-900 mb-2">King Trumpet</h2>
+                    <p class="text-gray-600 text-sm leading-relaxed mb-4">
+                        Large and cylindrical, this mushroom has a firm, meaty stem that can be sliced and seared like a scallop.
+                    </p>
+                    <div class="flex items-center justify-between">
+                        <span class="text-3xl font-bold text-green-700">$9.99</span>
+                        <span class="text-gray-500">per lb</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Order Form Section -->
+        <section class="bg-gray-100 rounded-xl p-8 shadow-inner mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 text-center mb-4">Place Your Order</h2>
+            <p class="text-center text-gray-600 mb-8 max-w-xl mx-auto">
+                Fill out the form below to order your favorite mushrooms. We'll get in touch with you to confirm the details.
+            </p>
+            <form id="orderForm" class="space-y-6 max-w-2xl mx-auto">
+                <div>
+                    <label for="name" class="block text-sm font-medium text-gray-700">Full Name</label>
+                    <input type="text" id="name" name="name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500 sm:text-sm p-2" required>
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium text-gray-700">Email Address</label>
+                    <input type="email" id="email" name="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500 sm:text-sm p-2" required>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700">Mushroom Selection</label>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-2">
+                        <label class="flex items-center space-x-2">
+                            <input type="checkbox" name="mushrooms" value="Portobello" class="rounded text-green-600">
+                            <span class="text-gray-900">Portobello</span>
+                        </label>
+                        <label class="flex items-center space-x-2">
+                            <input type="checkbox" name="mushrooms" value="Cremini" class="rounded text-green-600">
+                            <span class="text-gray-900">Cremini</span>
+                        </label>
+                        <label class="flex items-center space-x-2">
+                            <input type="checkbox" name="mushrooms" value="Shiitake" class="rounded text-green-600">
+                            <span class="text-gray-900">Shiitake</span>
+                        </label>
+                        <label class="flex items-center space-x-2">
+                            <input type="checkbox" name="mushrooms" value="Oyster" class="rounded text-green-600">
+                            <span class="text-gray-900">Oyster</span>
+                        </label>
+                        <label class="flex items-center space-x-2">
+                            <input type="checkbox" name="mushrooms" value="Lion's Mane" class="rounded text-green-600">
+                            <span class="text-gray-900">Lion's Mane</span>
+                        </label>
+                        <label class="flex items-center space-x-2">
+                            <input type="checkbox" name="mushrooms" value="King Trumpet" class="rounded text-green-600">
+                            <span class="text-gray-900">King Trumpet</span>
+                        </label>
+                    </div>
+                </div>
+                <div>
+                    <label for="notes" class="block text-sm font-medium text-gray-700">Special Notes</label>
+                    <textarea id="notes" name="notes" rows="4" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-green-500 focus:ring-green-500 sm:text-sm p-2" placeholder="e.g., specific quantity, delivery instructions, etc."></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-green-700 hover:bg-green-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500">
+                        Submit Order
+                    </button>
+                </div>
+            </form>
+            <div id="statusMessage" class="mt-4 text-center hidden"></div>
+        </section>
+
+        <!-- Contact Section -->
+        <footer class="text-center py-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Get in Touch</h2>
+            <p class="text-lg text-gray-600 mb-4">
+                Have a question or a special request? We'd love to hear from you.
+            </p>
+            <div class="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-8">
+                <div class="flex items-center space-x-2">
+                    <svg class="w-6 h-6 text-green-700" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                        <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                    </svg>
+                    <a href="mailto:contact@yourfarm.com" class="text-gray-700 hover:text-green-700">contact@yourfarm.com</a>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <svg class="w-6 h-6 text-green-700" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M7 2a2 2 0 00-2 2v12a2 2 0 002 2h6a2 2 0 002-2V4a2 2 0 00-2-2H7zm3 14a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd"></path>
+                    </svg>
+                    <a href="tel:+1234567890" class="text-gray-700 hover:text-green-700">+1 (234) 567-890</a>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <svg class="w-6 h-6 text-green-700" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
+                    </svg>
+                    <p class="text-gray-700">123 Farm Lane, Mycity, CA 90210</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <script>
+        document.getElementById('orderForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the form from submitting normally
+
+            // Get form values
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const notes = document.getElementById('notes').value;
+            const checkboxes = document.querySelectorAll('input[name="mushrooms"]:checked');
+            const mushrooms = Array.from(checkboxes).map(cb => cb.value);
+
+            // Construct the email body
+            let emailBody = `New Mushroom Order!\n\n`;
+            emailBody += `Customer Name: ${name}\n`;
+            emailBody += `Customer Email: ${email}\n\n`;
+            emailBody += `Selected Mushrooms:\n`;
+            if (mushrooms.length > 0) {
+                mushrooms.forEach(mushroom => {
+                    emailBody += `- ${mushroom}\n`;
+                });
+            } else {
+                emailBody += `  (No mushrooms selected)\n`;
+            }
+            emailBody += `\nSpecial Notes:\n${notes}\n\n`;
+            emailBody += `Please reply to this email to confirm the order.`;
+            
+            // Encode the email body for the URL
+            const encodedBody = encodeURIComponent(emailBody);
+            
+            // Create the mailto URL
+            const mailtoLink = `mailto:Penninefungifarm@gmail.com?subject=New Mushroom Order from Website&body=${encodedBody}`;
+
+            // Open the user's default email client
+            window.location.href = mailtoLink;
+
+            // Display a message to the user
+            const statusMessage = document.getElementById('statusMessage');
+            statusMessage.textContent = 'Your order form has been prepared in your email client. Please check your email program to send the message.';
+            statusMessage.classList.remove('hidden');
+            statusMessage.classList.add('text-green-700');
+        });
+    </script>
+
+</body>
+</html>
